@@ -1,0 +1,16 @@
+1.【応用】 resources/views/layouts/profile.blade.php も編集して、 
+    プロフィール編集画面にもログインリンクやログアウトリンクを表示するように
+    カスタマイズしましょう。
+    ⇨resources/views/layouts/profile.blade.phpに記載
+
+2.【応用】11章で /admin/profile/create にアクセスしたら ProfileController の 
+     add Action に割り当てるように設定しました。 ログインしていない状態で /admin/
+     profile/create にアクセスした場合にログイン画面にリダイレクトされるように
+     設定しましょう。
+     ⇨routes/web.phpに記載
+
+3.【応用】同様に 11章で /admin/profile/edit にアクセスしたら ProfileController の 
+     edit Action に割り当てるように設定しました。 ログインしていない状態で /admin/
+     profile/edit にアクセスした場合にログイン画面にリダイレクトされるように設定
+    しましょう。
+    ⇨routes/web.phpに記載
